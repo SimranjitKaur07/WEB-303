@@ -5,7 +5,7 @@
     27/05/2022}
 */
   // 6. event handler to run #price value has changed
-     $("#price").on("change", function () {
+     ("#price").on("change", function () {
        console.log("Simranjit Kaur");
   });
   
