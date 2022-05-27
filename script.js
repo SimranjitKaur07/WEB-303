@@ -6,7 +6,7 @@
 */
   // 6. event handler to run #price value has changed
      $ ("#price").on("change", function () {
- console.log("Simranjit kaur");
+
   });
   
   // 7.
