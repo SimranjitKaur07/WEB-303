@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+	<!-- WEB303 Assignment 1 - jQuery -->
+	<meta charset="utf-8" />
+	<title>Price List</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<h1>List of prices</h1>
+	<p>Enter a price</p>
+	<form>
+		<fieldset>
+			<label>
+				Price
+				<input type="text" id="price" placeholder="10" autofocus="autofocus" />
+			</label>
+		</fieldset>
+		<button id="add-price">Add price to list</button>
+		<p>Tax on the current item is <span id="tax">$0</span></p>
+	</form>
+	<ul id="price-list">
+		<!-- 
+			List of prices with tax included will be added here.
+			Example output if the price input value was 10:
+			
+			<li>$11.30</li>
+
+		-->
+	</ul>
+</body>
+
+</html>
