@@ -8,3 +8,5 @@
      $("#price").on("change", function () {
  console.log("Simranjit kaur");
   });
+  
+  // 7.
