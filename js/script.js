@@ -1,5 +1,5 @@
 // WEB303 Assignment 2
-// Simranjit Kaur
+// Simranjit Kaur / 0781503
 
 $(document).ready(function(){
     $("#prospect").on("click", function(){        
