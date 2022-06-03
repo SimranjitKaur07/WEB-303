@@ -3,22 +3,22 @@
 
 $(document).ready(function(){
     $("#prospect").on("click", function(){        
-        $("#data").empty();
-        $("#data").hide().fadeIn(100);
-        $("#data").load("./prospect.html");
-        $("#data").css("display:block");
+        $("#content-wrapper").empty();
+        $("#content-wrapper").hide().fadeIn(100);
+        $("#content-wrapper").load("./prospect.html");
+        $("#content-wrapper").css("display:block");
     });
     $("#convert").on("click", function(){
-        $("#data").empty();
-        $("#data").hide().fadeIn(100);
-        $("#data").load("./convert.html");
-        $("#data").css("display:block");
+        $("#content-wrapper").empty();
+        $("#content-wrapper").hide().fadeIn(100);
+        $("#content-wrapper").load("./convert.html");
+        $("#content-wrapper").css("display:block");
 
     });
     $("#retain").on("click", function(){
-        $("#data").empty();
-        $("#data").hide().fadeIn(100);
-        $("#data").load("./retain.html");
-        $("#data").css("display:block");
+        $("#content-wrapper").empty();
+        $("#content-wrapper").hide().fadeIn(100);
+        $("#content-wrapper").load("./retain.html");
+        $("#content-wrapper").css("display:block");
     });
 });
