@@ -1,3 +1,12 @@
 // WEB303 Assignment 2
-// Your Name Here
+// Simranjit Kaur
 
+$(document).ready(function(){
+    $("#prospect").on("click", function(){        
+        $("#content").empty();
+        $("#content").hide().fadeIn(1000);
+        $("#content").load("./prospect.html");
+        $("#content").css("display:block");
+    });
+ 
+});
