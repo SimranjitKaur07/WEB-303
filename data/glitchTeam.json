@@ -1,0 +1,29 @@
+{
+	"members": [
+		{
+			"fullname": "Alex Millerman",
+			"position": "Founder and CEO",
+			"shortbio": "Alex is the founder and CEO of Glitch Corp."
+		},
+		{
+			"fullname": "Phil Aylesworth",
+			"position": "Vice President and Chief Operating Officer",
+			"shortbio": "With over 20 years of experience, Phil is the most seasoned and diverse member of the Glitch Corp. team."
+		},
+		{
+			"fullname": "Darren Takaki",
+			"position": "Director of Development",
+			"shortbio": "Darren creates learning materials for Glitch Corp. as well as consulting for custom solutions."
+		},
+		{
+			"fullname": "Andrew Steele",
+			"position": "Chief Financial Officer",
+			"shortbio": "Andrew joined Glitch Corp. as its first CFO, ensuring the business financial situation is always top notch."
+		},
+		{
+			"fullname": "Ruth Susannah",
+			"position": "Vice President of Sales and Marketing",
+			"shortbio": "Ruth is the Vice President of Sales and Marketing for Glitch Corp, and manages sales worldwide."
+		}
+	]
+}
