@@ -1,4 +1,133 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+    margin: 15px; 
+}
+title{
+    color: black;
+}
+h1 { color: crimson; }
+
+img {
+    height: 300px;
+}
+
+/* Accordion style */
+
+#accordion {
+	list-style: none;
+	padding: 2px;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#accordion > li {
+	display: block;
+	list-style: none;
+    width: 60%;
+}
+
+#accordion > li > span {
+	display: block;
+	color: white;
+	margin: 4px 0;
+	padding: 6px;
+	font-weight: normal;
+	cursor: pointer; 
+    font-size: 18px;
+    background-color: #44c17b;
+}
+
+#accordion > li > div {
+	list-style: none;
+	padding: 7px;
+	display: none; 
+    overflow:auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#accordion > ul li {
+	font-weight: normal;
+	cursor: auto;
+	padding: 0 0 0 7px;
+}
+
+#accordion a {
+	text-decoration: none;
+}
+
+#accordion li > span:hover {
+    background-color: beige;
+    color: crimson;
+}
+
+#accordion li > span.active {
+	background-color: black;
+    color: white;
+}
+
+/* Tabbed style */
+
+#tabs {
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 10;
+}
+
+#tabs li{
+    background-color: #525252; 
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#tabs li a{
+    display: block;
+    text-align: center;
+    background-color: beige; 
+    border: 1px solid #000;
+    color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif; 
+    border-bottom: 1px solid beige;
+}
+
+#tabs li a.inactive {
+    background-color: #44c17b;
+    color: white;
+    border-bottom: 1px solid black;
+    font-weight: normal;
+}
+
+.container {
+    display: none;
+    padding: 16px;
+    border: 1px solid #000;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 90%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif; 
+    margin-bottom: 30px;
+    line-height: 25px;
+    background-color: beige;
+}
+
+.container:active {
+    display: block;
+}
+
+#tabs li a:hover, #tabs li a.inactive:hover {
+    color: white;
+    background-color: gray;
+    outline:none;
 }

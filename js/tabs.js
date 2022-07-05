@@ -1,3 +1,7 @@
+/*
+ Student_Name: Simranjit Kaur
+ Student_Id: W0781503
+*/
 $(document).ready(function() {    
 
     $('#tabs li a:not(:first)').addClass('inactive');
