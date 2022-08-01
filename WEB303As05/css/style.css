@@ -1,6 +1,11 @@
 html{
     background-color:aliceblue;
   }
+  h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: brown;
+  }
 table, th, td {
     border:1px solid black;
   }
@@ -21,3 +26,8 @@ img {
     margin-right: auto;
     width: 30%;
   }
+footer{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+}
